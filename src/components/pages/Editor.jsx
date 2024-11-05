@@ -3,6 +3,7 @@ import { useMemo, useRef } from "react";
 import uuid4 from "uuid4";
 import { useData } from "../../contexts/useData";
 import Section from "../Section";
+import { useAuth } from "../../contexts/useAuth";
 
 // Utility function to build a hierarchical structure of sections
 export const buildHierarchy = (sections) => {
@@ -27,6 +28,7 @@ export const buildHierarchy = (sections) => {
 const Editor = () => {
   const { books, setBooks } = useData();
   const [selectedBook, setSelectedBook] = useLocalStorage("selectedBook", {});
+  const {user} = useAuth()
   const inputRef = useRef();
 
   // Handles creating a new section
@@ -144,7 +146,7 @@ const Editor = () => {
       )}
 
       {/* Section Creation Input */}
-      {Object.keys(selectedBook).length > 0 && (
+      {user?.user?.role === 'author' && Object.keys(selectedBook).length > 0 && (
         <div className="pl-10 flex gap-5">
           <input
             ref={inputRef}
