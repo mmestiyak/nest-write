@@ -5,6 +5,14 @@ Develop a React-based platform for creating, editing, and collaborating on books
 
 ---
 
+## Setup and Build Instructions
+
+ - Installation `npm install`
+ - Development Server `num run dev`
+ - Run Mock Server `npm run server`
+ - Build `npm run build`
+ - Preview Built Version `npm run preview`
+ 
 
 
 ## Implementation Overview
