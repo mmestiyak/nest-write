@@ -5,11 +5,12 @@ Develop a React-based platform for creating, editing, and collaborating on books
 
 ---
 
-## Visualize the Project
+# Visualize the Project
 
 Check out a quick walkthrough of the project setup and key features in this Loom video:
 
-[![Watch the Project Walkthrough](https://www.loom.com/share/427b318005e64520bd1fa7e92d0f7607)](https://www.loom.com/share/427b318005e64520bd1fa7e92d0f7607)
+[Watch the Project Walkthrough](https://www.loom.com/share/427b318005e64520bd1fa7e92d0f7607)
+
 
 
 ## Setup and Build Instructions
