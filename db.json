@@ -1,0 +1,16 @@
+{
+  "users": [
+    {
+      "email": "meer@demo.com",
+      "password": "$2a$10$18X./9jfAkfkhatBkpBtduJDA0sfb293nTKJ2.U0DqgtyKGhjBYku",
+      "role": "author",
+      "id": 1
+    },
+    {
+      "email": "neer@demo.com",
+      "password": "$2a$10$ZZkxyFEcOrLeJ4x2h.H6ROb3IFmQri5.GWdUNTyBKsGACzneOOHpm",
+      "role": "editor",
+      "id": 2
+    }
+  ]
+}
