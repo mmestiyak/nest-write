@@ -23,7 +23,7 @@ export const books = [
     {
         id:2,
       title: "React: Up & Running",
-      ownerEmail: 'meer@demo.com',
+      ownerEmail: 'neer@demo.com',
       sections: [
         { id: 1, title: "Introduction to React", parentId: null },
         { id: 2, title: "Components", parentId: 1 },
