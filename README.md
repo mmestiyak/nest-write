@@ -54,10 +54,7 @@ Develop a React-based platform for creating, editing, and collaborating on books
 
 ---
 
-## Personal Note
-Balancing this project alongside a full-time job was challenging, but I dedicated focused hours to make this as robust as possible within the given time. Despite the limitations, I aimed to deliver a functional and efficient solution, and I’m genuinely grateful for the opportunity and any feedback provided. 
 
----
 
 ### Notes & Future Scope
 - **Potential Improvements**: 
